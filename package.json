@@ -1,0 +1,25 @@
+{
+  "name": "osmcode-node",
+  "version": "1.0.0",
+  "description": "## Linux Setup ``` sudo apt-add-repository --yes ppa:chris-lea/node.js sudo apt-add-repository --yes ppa:ubuntu-toolchain-r/test sudo apt-get -y update sudo apt-get -y install git gcc-4.8 g++-4.8 build-essential nodejs sudo apt-get -y install libboost-dev zlib1g-dev libexpat1-dev libsparsehash-dev export CC=gcc-4.8 export CXX=g++-4.8 git clone https://github.com/scrosby/OSM-binary.git cd OSM-binary/src make && sudo make install ```",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/birdage-io/osmcode-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/birdage-io/osmcode-node/issues"
+  },
+  "homepage": "https://github.com/birdage-io/osmcode-node#readme",
+  "dependencies": {
+    "osmium": "^0.5.6"
+  }
+}
